@@ -1,6 +1,6 @@
 <?php
   function trackPageVisit() {
-    $visitedPagesCookie = 'visited_pages.json';
+    $visitedPagesCookie = 'visited_pages';
 
     if (isset($_COOKIE[$visitedPagesCookie])) {
       $visitedPages = json_decode($_COOKIE[$visitedPagesCookie], true);

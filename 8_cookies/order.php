@@ -10,7 +10,6 @@
 
   if (isset($_POST['layout'])) {
     setcookie('layout', $_POST['layout'], time() + 3600, '/');
-//    header('Location: ' . $_SERVER['PHP_SELF']);
     exit();
   }
 

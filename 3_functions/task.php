@@ -1,5 +1,4 @@
 <?php
-
   function z($x) {
     if (abs($x) >= 1) {
       return (sin($x) + 1) / (cos($x) ** 2 + exp($x));

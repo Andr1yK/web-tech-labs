@@ -2,7 +2,7 @@
   include('track_visited_pages.php');
   trackPageVisit();
 
-  $visitorFile = 'visitors_count';
+  $visitorFile = 'visitors_count.json';
 
   if (!file_exists($visitorFile)) {
     file_put_contents($visitorFile, json_encode([]));
